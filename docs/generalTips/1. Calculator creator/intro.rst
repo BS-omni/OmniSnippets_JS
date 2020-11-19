@@ -3,6 +3,7 @@
 ===================================
 
 Tips for making your calculator easy to understand for others, even without JS
+
 .. toctree::
     :maxdepth: 2
 

@@ -40,16 +40,18 @@ Examples
 .. image:: images/force_wrong1.png
 
 See that the subscripts refer to full words (r->resulting, g->gravitational) so they shouldn't be italicized.
-(*Source code correct* ``F_\mathrm{r} = F_\mathrm{g}(\sin{\theta} - f\cos{\theta})``,
-*Source code incorrect* ``F_r = F_g(sin{\theta} - fcos{\theta})``).
+
+(*Source code correct* ``F_\mathrm{r} = F_\mathrm{g}(\sin{\theta} - f\cos{\theta})``, *Source code incorrect* ``F_r = F_g(sin{\theta} - fcos{\theta})``).
 
 * Use of italics - acronyms and subscripts:
 .. image:: images/standard_error.png
 See that the subscripts refer to variables (``i``, ``N``), so they should be *italicized*.
+
 (*Source code* ``\mathrm{SEM} = \sqrt{\frac{\sum_i^N\left(x_i - \overline{x}\right)^2}{N(N-1)}}``).
 
 * Use of the multiplication dot ``·``: 
 .. image:: images/multiplication_with_dot.png
+
 (*Source code* ``S_3 = \left(\frac{n_1}{d_1} + \frac{n_2}{d_2} + \frac{n_3}{d_3}\right) \cdot 100\%``).
 
 

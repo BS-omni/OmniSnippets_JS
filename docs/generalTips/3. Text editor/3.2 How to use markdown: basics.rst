@@ -15,3 +15,5 @@ Tags that we use:
 *'alpha = beta + gamma' This will create a nicely formatted block, use it for numbers and equations. It will look like this: `alpha = beta + gamma`. You can also use the <code></code> tag instead. 
 
 * To make external links, use [anchor text](URL address). Remember about a good anchor text!
+
+.. image:: 3. Text editor/links_omni.jpg

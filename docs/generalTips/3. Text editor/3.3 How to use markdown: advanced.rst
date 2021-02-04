@@ -10,53 +10,52 @@ If you want to use the table from the other website, you don't need to rewrite i
 **The most important tags:**
 
 * <table> ... </table> creating table
-- <thead> ... </thead> group header content
-- <tbody> ... </tbody> group the body content
-- <tr> ... </tr> row of a table
-- <td> ... </td> cell of a table
-- <th> ... </th> header cell of a table
+* <thead> ... </thead> group header content
+* <tbody> ... </tbody> group the body content
+* <tr> ... </tr> row of a table
+* <td> ... </td> cell of a table
+* <th> ... </th> header cell of a table
 
 **Formatting:**
 
-- <i> ... </i> *italics*
-- <b> ... </b> **bold**
-- <sup> ... </sup> superscript text
-- <sub> ... </sub> subscript text
-- <small> ... </small> small text
-- <center> ... </center> center text
-- don't use <style>!
+* <i> ... </i> *italics*
+* <b> ... </b> **bold**
+* <sup> ... </sup> superscript text
+* <sub> ... </sub> subscript text
+* <small> ... </small> small text
+* <center> ... </center> center text
+* don't use <style>!
 
 **Tips:**
 
 * Table is too big - try resizing the font <small><table></table></small>
-* Aligning the content of a table <table style="font-size: 15px; text-align:center">
-of a cell <td><center></center></td>
+* Aligning the content of a cell <td><center></center></td>
 
 **Example** 
 
+.. code-block:: 
 
+   <table>
+   <thead>
+      <tr>
+      <th><center>Temperature (<sup>o</sup>C)</center></th>
+      <th><center>Pressure (kPa)</center></th>
+      </tr>
+   </thead>
+    
+  <tbody>
+  <tr>
+    <td><center>0</center></td>
+    <td><center>0.6113</center></td>
+  </tr>
+    <tr>
+    <td><center>20</center></td>
+    <td><center>68</center></td>
+  </tr>
+  </tbody>
+  </table>
 
-`<table>`
-                  `<thead>`
-                   `<tr>`
-                        `<th><center>Temperature (<sup>o</sup>C)</center></th>`
-                        `<th><center>Pressure (kPa)</center></th>`
-`</tr>`
-                `</thead>`
-                `<tbody>`
-                    `<tr>`
-                       `<td><center>0</center></td>`
-                        `<td><center>0.6113</center></td>`
-`</tr>`
-                   ` <tr>`
-                       ` <td><center>20</center></td>`
-                        `<td><center>68</center></td>`
-`</tr>`
-
-`</tbody>`
-`</table>`
-
-Other example: https://bb.omnicalculator.com/content-editor/edit/1183
+Other example: https://www.omnicalculator.com/adminbb/calculators/1183/edit-text
 
 
 
@@ -80,7 +79,10 @@ If you want to make an anchor (internal link) to the other paragraph within your
 1. Check the preview of your website, click on the header in the *Table of contents* you want to link to - e.g. `References `
 2. You are moved to that paragraph and the address has the paragraph slug after hash. Copy it, # included. `#references`
 3. Embed the link in the text as usual, you don't need to put whole omni address here:
- ` You'll find some interesting links in the [reference](#references) section below.`
+
+::
+
+You'll find some interesting links in the [reference](#references) section below.
 
 
 
@@ -97,32 +99,54 @@ If you want to make an anchor (internal link) to the other paragraph within your
 
 To enrich your text, you can add pictures:
 
-1. **Directly from a website**, e.g.
-`<img src= https://upload.wikimedia.org/wikipedia/commons/c/ca/Circle_lines.png>`
-2. **From our FTP server**, e.g.
-`<img src=https://uploads-cdn.omnicalculator.com/images/pentagon-h-d.png >`
-(detailed instruction on uploading images [here](https://docs.google.com/document/d/1zdk0Okjp0mDSbiWrcYOotvjizX-H0NO_hifuoRtkjTU/edit))
+1. **Directly from a website** 
+::
+
+<img src= https://upload.wikimedia.org/wikipedia/commons/c/ca/Circle_lines.png>
+
+2. **From our FTP server**
+
+::
+
+<img src=https://uploads-cdn.omnicalculator.com/images/pentagon-h-d.png>
+
 
 **Important attributes**
 
-*  MUST DO: **alt** -  alternate text for an image. Provides alternative information for an image if a user for some reason cannot view it (slow connection, an error, using a screen reader). e.g.
-`<img src=xxx.png alt=”image of pentagon with its diagonal and height” >`
-* height, width -  specifies dimension
-`<img src=xxx.png width="45%">`
+*  MUST DO: **alt** -  alternate text for an image. Provides alternative information for an image if a user for some reason cannot view it (slow connection, an error, using a screen reader). e.g. 
+::
+
+  <img src=xxx.png alt=”image of pentagon with its diagonal and height” >
+  
+* height, width -  specifies dimension 
+
+::
+
+  <img src=xxx.png width="45%">
+
 * aligning the image (right, left)
-`<img src ="aaa.svg" align="right">`
+::
+
+  <img src ="aaa.svg" align="right">
+
 * centering the image
-`<center><figure><img src= aaa.JPG width = "40%"></figure></center>`
+
+::
+
+  <center><figure><img src= aaa.JPG width = "40%"></figure></center>
 
 
 * A good example of formatting you can shamelessly copy:
-`<center><figure>
-<img src="https://uploads-cdn.omnicalculator.com/images/picture.png"  alt="Picture description" width="80%" align="left">
-<figcaption><small>
-Figure caption
-<a href="https://en.wikipedia.org/">wikimedia.org</a>)
-</small></figcaption>
-</figure></center>`
+
+::
+
+  <center><figure>
+  <img src="https://uploads-cdn.omnicalculator.com/images/picture.png"  alt="Picture description" width="80%" align="left">
+  <figcaption><small>
+  Figure caption
+  <a href="https://en.wikipedia.org/">wikimedia.org</a>)
+  </small></figcaption>
+  </figure></center>
 
 
 3.3.6 How to upload pictures?
@@ -137,21 +161,44 @@ Figure caption
 https://uploads-cdn.omnicalculator.com/folder_name/file_name , e.g. https://uploads-cdn.omnicalculator.com/fbimages/car-vs-bike-screenshot.png
 
 6. To add the image in the text, use the img tag, like in the following example:
+
+::
+
 <img src=”https://uploads-cdn.omnicalculator.com/fbimages/car-vs-bike-screenshot.png” alt=”cars are better than bikes, period!” />
 
-## Free to use pictures:
-https://www.pexels.com/
-https://unsplash.com/
-Google -> images - > settings -> Advanced search -> usage rights -> free to use or share, even commercially
+3.3.7 Where to find free-to-use pictures?
+------------------------------------
 
-3.3.7 How to attribute the author?
+* https://www.pexels.com/
+* https://unsplash.com/
+* Google -> images - > settings -> Advanced search -> usage rights -> free to use or share, even commercially
+
+3.3.8 How to attribute the author?
 --------------------------------------------------
-External sites: Name of the picture (main domain www), e.g.,
+
+* External sites: Name of the picture (main domain www)
+::
 
 <center><figure> <img src="https://uploads-cdn.omnicalculator.com/images/picture.png" alt="Picture description" width="80%" align="left"> <figcaption><small> Figure caption <a href="https://en.wikipedia.org/">wikimedia.org</a>) </small></figcaption> </figure></center>
 
-Wikipedia: select a picture on the Wikipedia -> click on the download button -> if ""You need to attribute the author"" click show me how -> copy and paste as to the external site.
-if ""You can attribute the author"" click more details and check the licensing -> if public domain, it's free to use -> if not, attribute the author, e.g.
+* Wikipedia: select a picture on the Wikipedia -> click on the download button -> if ""You need to attribute the author"" click show me how -> copy and paste as to the external site. If ""You can attribute the author"" click more details and check the licensing -> if public domain, it's free to use -> if not, attribute the author.
+
+::
 
 <small>Skara Brae - Stone Age settlement (by Wknight94 - Own work, CC BY-SA 3.0, <a href=""https://commons.wikimedia.org/w/index.php?curid=2685554"">wikimedia.org</a>)</small>
+
+
+3.3.9 How to resize pictures?
+------------------------------------------------
+
+**Option 1: use paint.net**
+
+* Open the picture in paint.net
+* Click Image -> Resize...
+* Set the image width to 1000 pixels (if the image is smaller no need). The height will resize automatically.
+* Save the picture with lower quality (ideal size of a picture is below 200 kB).
+
+**Option 2: use tinyjpg.com or tinypng.com**
+
+* Again, we want the size of the picture to not exceed 200 kB. Combine both methods for the best effect.
 

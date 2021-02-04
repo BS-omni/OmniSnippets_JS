@@ -1,4 +1,12 @@
+3. Text editor
+===================================
 
+Tips regarding the text editor.
+
+.. toctree::
+    :maxdepth: 2
+    
+    
 
 
 

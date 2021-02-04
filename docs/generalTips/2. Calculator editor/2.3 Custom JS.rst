@@ -1,7 +1,7 @@
 2.3 Custom JS
 ==================================
 
-We have a full separate part of the documentation dedicated to things you can do with custom JS. This section deals with two things only: keeping our style uniform. 
+We have a full separate part of the documentation dedicated to things you can do with custom JS. This section deals with one thing only: keeping our style uniform. 
 
 2.3.1 Adding an equation above the calculator: style guide
 -----------------------------

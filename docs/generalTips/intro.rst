@@ -9,7 +9,7 @@ Title
 .. toctree::
     :maxdepth: 2
 
-    1. Calculator creator/intro
-    2. Text editor/intro
-    3. Text editor - beyond text/intro
+    1. Most useful links/intro
+    2. Calculator editor/intro
+    3. Text editor/intro
     4. Other/intro

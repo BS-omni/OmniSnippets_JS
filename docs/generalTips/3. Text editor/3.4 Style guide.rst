@@ -1,0 +1,64 @@
+3.4 Style guide
+=================================
+
+
+We should all stick to the rules below to ensure all texts are stylistically coherent. Naturally, you'll have to break some of these from time to time - just make sure you do it consciously rather than forget about them!
+
+Title
+----------------------------
+* DO capitalize the title according to [these rules](http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html).
+* DO use the word "calculator" in the title (unless it's a converter, counter, etc.)
+* DO make sure the first keyword is at the beginning of the title.
+
+*Examples of good titles:* ROI Calculator - Return on Equity, Pressure at Altitude Calculator, Length Converter
+
+*Examples of bad titles:* Return on Equity (ROI) calculator, Pressure at altitude, Length Converter Calculator
+
+SEO title
+--------------------------------
+* DO capitalize the SEO title according to `these rules <http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html>`.
+* DO use the most searched phrase at the beginning of the SEO title.
+* DO add other phrases, if they rank high in SEO.
+
+*Examples of good SEO titles:* Circumference Calculator, Acceleration Calculator, BMI Calculator - What's Your Body Mass Index?
+
+*Examples of bad SEO titles:* ROI, What's your BMI, acceleration calc
+
+Description
+----------------------------------
+* DO use the first keyword at least once, preferably at the very beginning of the description.
+* DO avoid repeating this sentence at the beginning of the lead.
+* DON'T capitalize the calculator name.
+
+Content
+------------------------------------
+Main rule: we write for Google (SEO is important), but also for the end user. Try to keep a balance between keywords and natural, easy-to-read text.
+Remember that most of our users are not experts on the topics they read about; try to keep the language precise, but natural and simple. Avoid using niche terms without explanation.
+
+Generally, you should try to follow the guidelines listed in the SEO scoring system. Remember that it's just a rough indicator - it's more important to write a text that's readable and sounds naturally than to write a text stuffed to the brim with keywords.
+Apart from the SEO rules, make sure to take into consideration the following:
+
+* DON'T capitalize headers.
+* DON'T capitalize names of calculators in the text; for example, if you link to another calculator, write something along these lines: *take a look at our acceleration calculator*.
+* DO write quite informally (a good rule of thumb is aiming for the age of the reader around 13-14 in the readability test on Grammarly). You can use the form "you", try to avoid the form "one knows that..."
+* DO include an example of calculations, unless the calculation process is so difficult that we don't even show the formulas.
+* DO make sure you use spaces around links properly! Example of good use: *Take a look at our <portal cid="456">acceleration calculator</portal> to find out...*
+* DO try to incorporate internal links naturally in the text. You don't have to always link using the phrase *XYZ calculator*, instead, you can link on single words (such as *LEDs are <portal cid="456">resistors</portal> that....* or on longer phrases.
+* DO try to scatter the internal links in the text - try not to create one block of text that includes five links in one sentence.
+* DO try to place the internal links in the text quite early on.
+* DO use subscripts and superscripts! (You can copy them from [here]( https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts)).
+* DO use keywords in the alt attribute of images or videos.
+
+Equations
+-------------------------------------
+* DO use a full stop as a decimal separator and a comma as a thousands separator. For example, the notation $67,295.23 is correct; $23 564,12 is not.
+* DO use superscripts rather than the ^ symbol to indicate raising a number to a certain power.
+
+Bullet lists (courtesy of Jack)
+------------------------------------------
+For consistency, lists should be constructed in the following manner:
+
+* The text preceding the text should have a colon, as it is above;
+* The same applies for showing formulas in a new paragraph;
+* Each bullet point should begin with a capital (big) letter; and
+* Each bullet point should end with a semi-colon, except the penultimate one which should end with a semi-colon followed by the word "and", and the final one which has a full stop.

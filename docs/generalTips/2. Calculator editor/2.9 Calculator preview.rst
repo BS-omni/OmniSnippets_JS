@@ -1,0 +1,9 @@
+2.9 Calculator preview
+==========================================
+
+* DO capitalize the first word in each variable (but not more).
+* DO capitalize the first word in every header.
+* DO try to list the variables in a logical order; information supplied by the user should be at the top, the result - at the bottom.
+* DO make sure that you're not using more units than necessary - create the *customized unit list* for units such as length or volume.
+* DO spend a few seconds thinking about the default unit and the Imperial default unit - which ones will make the most sense?
+* DON'T name any of your variable with a name from this list: https://www.tutorialspoint.com/What-are-Reserved-Keywords-in-Python

@@ -16,4 +16,4 @@ Tags that we use:
 
 * To make external links, use [anchor text](URL address). Remember about a good anchor text!
 
-.. image:: 3. Text editor/links_omni.jpg
+.. image:: images/links_omni.jpg

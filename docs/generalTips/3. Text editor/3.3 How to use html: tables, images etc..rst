@@ -1,4 +1,4 @@
-3.3 How to use markdown: advanced
+3.3 How to use html: tables, images etc.
 =============================================
 
 3.3.1 Tables

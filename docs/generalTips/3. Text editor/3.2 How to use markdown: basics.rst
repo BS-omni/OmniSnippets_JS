@@ -12,7 +12,7 @@ Tags that we use:
 
 * To create a numbered list, start your line with a number, then a period, then space, then text, like this: "1. this is an item {new line} 1. this is a 2nd item {new line} 1. this is a third item".
 
-*'alpha = beta + gamma' This will create a nicely formatted block, use it for numbers and equations. It will look like this: `alpha = beta + gamma`. You can also use the <code></code> tag instead. 
+* 'alpha = beta + gamma' This will create a nicely formatted block, use it for numbers and equations. It will look like this: `alpha = beta + gamma`. You can also use the <code></code> tag instead. 
 
 * To make external links, use [anchor text](URL address). Remember about a good anchor text!
 

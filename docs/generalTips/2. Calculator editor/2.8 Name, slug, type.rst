@@ -1,2 +1,28 @@
 2.8 Name, slug, type
 ========================================
+
+2.8.1 Name
+------------------------
+
+Not only is the name shown in BB, but also on the public-facing website, as the link text under a calculator. Here are the formatting rules:
+
+* DON'T use the word "calculator". (If it's a converter, use the word "converter", though.)
+* DO capitalize the first word.
+* DON'T capitalize other words (unless they're "naturally" capitalized).
+
+*Examples of good names:* BMI, Length converter, Acceleration, Ideal transformer
+
+*Examples of bad names:* bmi calculator, Ideal Transformer Calculator
+
+2.8.2 Slug
+----------------------------
+
+* DO use only lowercase letters.
+* DO use hyphens between words.
+* DON'T use underscore or spaces between words.
+* DON'T use the word "calculator".
+* DO try to keep the slug as short as possible.
+
+*Examples of good slugs:* sphere, roi, sodium-correction
+
+*Examples of bad slugs:* spherevolumecalculator, Return_on_Equity, sodium-correction-for-hyper-and-hyponatremia

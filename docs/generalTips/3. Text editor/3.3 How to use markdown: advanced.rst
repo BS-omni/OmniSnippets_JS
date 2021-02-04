@@ -1,0 +1,157 @@
+3.3 How to use markdown: advanced
+=============================================
+
+3.3.1 Tables
+------------------------------------------
+
+Creating html tables embedded in the text:
+If you want to use the table from the other website, you don't need to rewrite it - tools exists which can do it for you e.g. https://codebeautify.org/csv-to-html-converter. Sometimes the formatting fails and ctrl-c, ctrl-v doesn't work so nicely, then first copy the table to the spreadsheet and from there to the converter tool.
+
+**The most important tags:**
+
+* <table> ... </table> creating table
+- <thead> ... </thead> group header content
+- <tbody> ... </tbody> group the body content
+- <tr> ... </tr> row of a table
+- <td> ... </td> cell of a table
+- <th> ... </th> header cell of a table
+
+**Formatting:**
+
+- <i> ... </i> *italics*
+- <b> ... </b> **bold**
+- <sup> ... </sup> superscript text
+- <sub> ... </sub> subscript text
+- <small> ... </small> small text
+- <center> ... </center> center text
+- don't use <style>!
+
+**Tips:**
+
+* Table is too big - try resizing the font <small><table></table></small>
+* Aligning the content of a table <table style="font-size: 15px; text-align:center">
+of a cell <td><center></center></td>
+
+**Example** 
+
+
+
+`<table>`
+                  `<thead>`
+                   `<tr>`
+                        `<th><center>Temperature (<sup>o</sup>C)</center></th>`
+                        `<th><center>Pressure (kPa)</center></th>`
+`</tr>`
+                `</thead>`
+                `<tbody>`
+                    `<tr>`
+                       `<td><center>0</center></td>`
+                        `<td><center>0.6113</center></td>`
+`</tr>`
+                   ` <tr>`
+                       ` <td><center>20</center></td>`
+                        `<td><center>68</center></td>`
+`</tr>`
+
+`</tbody>`
+`</table>`
+
+Other example: https://bb.omnicalculator.com/content-editor/edit/1183
+
+
+
+
+3.3.2 Videos
+---------------------------------------------
+
+You can embed videos, for example from YouYube:
+
+`<video-embed src="https://www.youtube.com/embed/tpYnRwC1GaU"></video-embed>`
+
+Remember that the link for embedding is different than the link to the video itself - click Share -> Embed under the video the get the link (in the form as shown above).
+
+
+
+3.3.3 Anchors
+--------------------------------
+
+If you want to make an anchor (internal link) to the other paragraph within your text, all you need to do is:
+
+1. Check the preview of your website, click on the header in the *Table of contents* you want to link to - e.g. `References `
+2. You are moved to that paragraph and the address has the paragraph slug after hash. Copy it, # included. `#references`
+3. Embed the link in the text as usual, you don't need to put whole omni address here:
+ ` You'll find some interesting links in the [reference](#references) section below.`
+
+
+
+3.3.4 Unicode symbols
+----------------------------------
+²     ³    °
+α  β  γ  δ  π
+√   ³√
+≤ ≥ ≠ ≈
+
+
+3.3.5 Images 
+--------------------------------
+
+To enrich your text, you can add pictures:
+
+1. **Directly from a website**, e.g.
+`<img src= https://upload.wikimedia.org/wikipedia/commons/c/ca/Circle_lines.png>`
+2. **From our FTP server**, e.g.
+`<img src=https://uploads-cdn.omnicalculator.com/images/pentagon-h-d.png >`
+(detailed instruction on uploading images [here](https://docs.google.com/document/d/1zdk0Okjp0mDSbiWrcYOotvjizX-H0NO_hifuoRtkjTU/edit))
+
+**Important attributes**
+
+*  MUST DO: **alt** -  alternate text for an image. Provides alternative information for an image if a user for some reason cannot view it (slow connection, an error, using a screen reader). e.g.
+`<img src=xxx.png alt=”image of pentagon with its diagonal and height” >`
+* height, width -  specifies dimension
+`<img src=xxx.png width="45%">`
+* aligning the image (right, left)
+`<img src ="aaa.svg" align="right">`
+* centering the image
+`<center><figure><img src= aaa.JPG width = "40%"></figure></center>`
+
+
+* A good example of formatting you can shamelessly copy:
+`<center><figure>
+<img src="https://uploads-cdn.omnicalculator.com/images/picture.png"  alt="Picture description" width="80%" align="left">
+<figcaption><small>
+Figure caption
+<a href="https://en.wikipedia.org/">wikimedia.org</a>)
+</small></figcaption>
+</figure></center>`
+
+
+3.3.6 How to upload pictures?
+--------------------------------------------------
+1. Download Filezilla Client: https://filezilla-project.org
+2. Install it on your computer
+3. Log in (details in the "Shared Accounts" file).
+
+4. Put the pictures you want to upload in the “images” folder. Make sure that the pictures are open source (good sources are e.g. www.pexels.com or www.unsplash.com) and that they’re not too large (you can decrease their file size by using e.g. https://tinypng.com)
+
+5. The images are available at the following URL:
+https://uploads-cdn.omnicalculator.com/folder_name/file_name , e.g. https://uploads-cdn.omnicalculator.com/fbimages/car-vs-bike-screenshot.png
+
+6. To add the image in the text, use the img tag, like in the following example:
+<img src=”https://uploads-cdn.omnicalculator.com/fbimages/car-vs-bike-screenshot.png” alt=”cars are better than bikes, period!” />
+
+## Free to use pictures:
+https://www.pexels.com/
+https://unsplash.com/
+Google -> images - > settings -> Advanced search -> usage rights -> free to use or share, even commercially
+
+3.3.7 How to attribute the author?
+--------------------------------------------------
+External sites: Name of the picture (main domain www), e.g.,
+
+<center><figure> <img src="https://uploads-cdn.omnicalculator.com/images/picture.png" alt="Picture description" width="80%" align="left"> <figcaption><small> Figure caption <a href="https://en.wikipedia.org/">wikimedia.org</a>) </small></figcaption> </figure></center>
+
+Wikipedia: select a picture on the Wikipedia -> click on the download button -> if ""You need to attribute the author"" click show me how -> copy and paste as to the external site.
+if ""You can attribute the author"" click more details and check the licensing -> if public domain, it's free to use -> if not, attribute the author, e.g.
+
+<small>Skara Brae - Stone Age settlement (by Wknight94 - Own work, CC BY-SA 3.0, <a href=""https://commons.wikimedia.org/w/index.php?curid=2685554"">wikimedia.org</a>)</small>
+

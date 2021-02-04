@@ -2,7 +2,7 @@
 =========================
 
 
-We're using `markdown <https://commonmark.org/help/>` with a few custom html tags (more on them later). Take a look at the link... it's a 60-seconds lesson. Also, they have a 10-minute-long tutorial. 
+We're using `markdown <https://commonmark.org/help/>`_ with a few custom html tags (more on them later). Take a look at the link... it's a 60-seconds lesson. Also, they have a 10-minute-long tutorial. 
 
 Tags that we use:
 

@@ -1,4 +1,4 @@
-2.3 Text length
+3.5 Text length
 ==================
 
 The rules for choosing the length of a text:
